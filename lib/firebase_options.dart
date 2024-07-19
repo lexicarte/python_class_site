@@ -54,11 +54,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyBELto0TN_Vp12PII_oP3OymNHtQbc3AZ0',
-    appId: '1:7305552374:web:ed29d461fd46cd6275a7d7',
+    appId: '1:7305552374:web:151d85190e6f9dbd75a7d7',
     messagingSenderId: '7305552374',
     projectId: 'python-86230',
     authDomain: 'python-86230.firebaseapp.com',
     storageBucket: 'python-86230.appspot.com',
-    measurementId: 'G-JTEJD1EPHF',
+    measurementId: 'G-J2P5FPM1Z4',
   );
+
 }
