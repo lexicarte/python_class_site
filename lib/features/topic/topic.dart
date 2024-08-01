@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:python_class_site/features/topic_screens/1_what_can_python_do.dart';
+import 'package:python_class_site/features/topic_screens/7-5_int_float_bool.dart';
 
 import '../topic_screens/10_loops.dart';
 import '../topic_screens/11_objects.dart';
@@ -33,7 +34,8 @@ List<Topic> topics = [
   Topic(name: 'Print and Comment', linkName: 'print'),
   Topic(name: 'Basic Strings', linkName: 'strings'),
   Topic(name: 'Variables & User Input', linkName: 'variables'),
-  Topic(name: 'Data Types', linkName: 'data-types'),
+  Topic(name: 'Data Types & Strings', linkName: 'data-types'),
+  Topic(name: 'Int, Float, & Bool', linkName: 'int-float-bool'),
   Topic(name: 'If-Then', linkName: 'if-then'),
   Topic(name: 'Functions', linkName: 'functions'),
   Topic(name: 'Loops', linkName: 'loops'),
@@ -50,6 +52,7 @@ Map<String, Widget> topicWidgets = {
   'strings': const Strings(),
   'variables': const Variables(),
   'data-types': const DataTypes(),
+  'int-float-bool': const IntFloatBool(),
   'if-then': const IfThen(),
   'functions': const Functions(),
   'loops': const Loops(),

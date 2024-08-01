@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:python_class_site/features/widgets/functions.dart';
 import 'package:python_class_site/features/widgets/short_divider.dart';
 
 import '../../constants/app_sizes.dart';
@@ -26,7 +27,10 @@ class TopicScreen extends StatelessWidget {
         gapH24,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .08),
-          child: body,
+          child: DefaultTextStyle(
+            style: adjustableDarkStyle(width),
+            child: body,
+          ),
         ),
       ],
     );
