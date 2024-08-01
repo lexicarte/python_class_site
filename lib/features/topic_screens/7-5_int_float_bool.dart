@@ -11,7 +11,10 @@ class IntFloatBool extends StatelessWidget {
     return TopicScreen(
       title: title,
       body: Column(
-        children: [],
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+
+        ],
       ),
     );
   }
