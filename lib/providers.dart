@@ -42,3 +42,4 @@ final selectedPageProvider = Provider<Widget>((ref) {
 final recipeActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
 final userInputActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
 final bandNameActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
+final madLibActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
