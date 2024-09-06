@@ -14,7 +14,7 @@ class WhatCanPythonDo extends StatelessWidget {
       'Desktop applications',
       'Automate tasks',
       'Web development',
-      'Extracting data',
+      'Extract data',
       'Data science (including machine learning)',
       'And more...',
     ];

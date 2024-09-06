@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:python_class_site/features/topic_screens/1_what_can_python_do.dart';
 import 'package:python_class_site/features/topic_screens/7-5_int_float_bool.dart';
 
-import '../topic_screens/10_loops.dart';
+import '../topic_screens/9_loops.dart';
 import '../topic_screens/11_objects.dart';
 import '../topic_screens/12_errors.dart';
 import '../topic_screens/13_working_with_data.dart';
@@ -13,7 +13,7 @@ import '../topic_screens/5_strings.dart';
 import '../topic_screens/6_variables.dart';
 import '../topic_screens/7_data_types.dart';
 import '../topic_screens/8_if_then.dart';
-import '../topic_screens/9_functions.dart';
+import '../topic_screens/10_functions.dart';
 
 class Topic {
   Topic({
@@ -37,8 +37,8 @@ List<Topic> topics = [
   Topic(name: 'Data Types & Strings', linkName: 'data-types'),
   Topic(name: 'Int, Float, & Bool', linkName: 'int-float-bool'),
   Topic(name: 'If-Then', linkName: 'if-then'),
+  Topic(name: 'Lists & Loops', linkName: 'loops'),
   Topic(name: 'Functions', linkName: 'functions'),
-  Topic(name: 'Loops', linkName: 'loops'),
   Topic(name: 'Object Oriented Programming', linkName: 'OOP'),
   Topic(name: 'Errors', linkName: 'errors'),
   Topic(name: 'Working with Data', linkName: 'working-with-data'),
@@ -54,8 +54,8 @@ Map<String, Widget> topicWidgets = {
   'data-types': const DataTypes(),
   'int-float-bool': const IntFloatBool(),
   'if-then': const IfThen(),
-  'functions': const Functions(),
   'loops': const Loops(),
+  'functions': const Functions(),
   'OOP': const Objects(),
   'errors': const Errors(),
   'working-with-data': const WorkingWithData(),

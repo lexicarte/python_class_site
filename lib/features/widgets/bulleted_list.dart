@@ -17,17 +17,13 @@ class BulletedList extends StatelessWidget {
       for (String point in points) {
         listItems.add(
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 5.0),
-                  child: Icon(
-                    CupertinoIcons.dot_square,
-                    color: kMainDarkColor,
-                    size: width > largeScreen ? 28 : 20,
-                  ),
+                Text(
+                  '▻ ',
+                  style: adjustableDarkStyle(width),
                 ),
                 gapW12,
                 Expanded(child: Text(point, style: adjustableDarkStyle(width))),
