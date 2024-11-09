@@ -45,3 +45,4 @@ final bandNameActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
 final madLibActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
 final tempConvActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
 final weatherTranslatorActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
+final functionActivityIsExpandedProvider = StateProvider<bool>((ref) => false);
